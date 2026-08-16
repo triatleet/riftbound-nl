@@ -58,6 +58,8 @@
 <main>
 
 
+    <!-- HERO -->
+
     <section class="hero">
 
         <div class="hero-label">
@@ -77,6 +79,53 @@
     </section>
 
 
+
+    <!-- FEATURED ARTICLE -->
+
+    {% assign featured = site.posts.first %}
+
+    {% if featured %}
+
+    <section class="featured">
+
+        <div class="featured-label">
+            Uitgelicht
+        </div>
+
+        <a href="{{ featured.url | relative_url }}">
+
+            <div class="featured-content">
+
+                <div class="featured-category">
+                    {{ featured.categories | first }}
+                </div>
+
+                <h2>
+                    {{ featured.title }}
+                </h2>
+
+                <p>
+                    {{ featured.excerpt
+                       | strip_html
+                       | truncate: 220 }}
+                </p>
+
+                <div class="featured-link">
+                    Lees artikel →
+                </div>
+
+            </div>
+
+        </a>
+
+    </section>
+
+    {% endif %}
+
+
+
+    <!-- LAATSTE ARTIKELEN -->
+
     <section class="articles">
 
         <div class="section-title">
@@ -90,31 +139,35 @@
 
         <div class="article-grid">
 
-    {% for post in site.posts limit:6 %}
 
-        <article class="article">
+            {% for post in site.posts limit:6 %}
 
-            <a href="{{ post.url | relative_url }}">
+                <article class="article">
 
-                <div class="category">
-                    {{ post.categories | first }}
-                </div>
+                    <a href="{{ post.url | relative_url }}">
 
-                <h3>
-                    {{ post.title }}
-                </h3>
+                        <div class="category">
+                            {{ post.categories | first }}
+                        </div>
 
-                <p>
-                    {{ post.excerpt | strip_html | truncate: 150 }}
-                </p>
+                        <h3>
+                            {{ post.title }}
+                        </h3>
 
-            </a>
+                        <p>
+                            {{ post.excerpt
+                               | strip_html
+                               | truncate: 150 }}
+                        </p>
 
-        </article>
+                    </a>
 
-    {% endfor %}
+                </article>
 
-</div>
+            {% endfor %}
+
+
+        </div>
 
     </section>
 
