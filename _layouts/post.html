@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -10,121 +13,39 @@
 
     <title>{{ page.title }} — {{ site.title }}</title>
 
-    <style>
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #111827;
-            color: #f9fafb;
-        }
-
-        header {
-            background: #1f2937;
-            border-bottom: 1px solid #374151;
-            padding: 20px;
-        }
-
-        .header-inner {
-            max-width: 900px;
-            margin: auto;
-
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .logo {
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        nav a {
-            color: #d1d5db;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-
-        nav a:hover {
-            color: white;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 70px auto;
-            padding: 0 20px;
-        }
-
-        .category {
-            color: #a78bfa;
-            font-size: 14px;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
-        h1 {
-            font-size: 48px;
-            margin: 15px 0;
-        }
-
-        .date {
-            color: #6b7280;
-            margin-bottom: 50px;
-        }
-
-        article {
-            font-size: 19px;
-            line-height: 1.8;
-            color: #d1d5db;
-        }
-
-        article h2 {
-            color: white;
-            margin-top: 45px;
-        }
-
-        article strong {
-            color: white;
-        }
-
-        footer {
-            border-top: 1px solid #374151;
-            padding: 30px 20px;
-            text-align: center;
-            color: #6b7280;
-        }
-
-    </style>
+    <link rel="stylesheet"
+          href="{{ '/assets/css/style.css' | relative_url }}">
 
 </head>
 
 
 <body>
 
+
 <header>
 
     <div class="header-inner">
 
         <div class="logo">
-            Riftblog
+            Rift<span>blog</span>
         </div>
 
         <nav>
 
-            <a href="/riftbound-nl/">
+            <a href="{{ '/' | relative_url }}">
                 Home
             </a>
 
-            <a href="/riftbound-nl/#nieuws">
+            <a href="{{ '/nieuws/' | relative_url }}">
                 Nieuws
             </a>
 
-            <a href="/riftbound-nl/#decks">
+            <a href="{{ '/decks/' | relative_url }}">
                 Decks
+            </a>
+
+            <a href="{{ '/strategie/' | relative_url }}">
+                Strategie
             </a>
 
         </nav>
@@ -134,25 +55,32 @@
 </header>
 
 
-<main>
+<main class="post-container">
+
 
     <div class="category">
         {{ page.categories }}
     </div>
 
-    <h1>
+
+    <h1 class="post-title">
         {{ page.title }}
     </h1>
 
-    <div class="date">
+
+    <div class="post-date">
+
         {{ page.date | date: "%d-%m-%Y" }}
+
     </div>
 
-    <article>
+
+    <article class="post-content">
 
         {{ content }}
 
     </article>
+
 
 </main>
 
@@ -162,6 +90,7 @@
     Riftblog · Nederlandse Riftbound blog en community
 
 </footer>
+
 
 </body>
 
