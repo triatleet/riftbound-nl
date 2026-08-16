@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mijn eerste Riftbound deck"
-date: 2026-08-17
+date: 2026-08-16
 categories: decks
 ---
 
