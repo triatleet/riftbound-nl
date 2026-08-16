@@ -3,6 +3,7 @@ layout: post
 title: "Welkom bij Riftblog"
 date: 2026-08-16
 categories: nieuws
+image: "/assets/images/posts/RoppakkiBanner.jpg"
 ---
 
 Welkom bij **Riftblog**!
