@@ -41,11 +41,11 @@
             </a>
 
             <a href="{{ '/decks/' | relative_url }}">
-                Decks
+                Deckbuilding
             </a>
 
             <a href="{{ '/strategie/' | relative_url }}">
-                Strategie
+                Competitie
             </a>
 
         </nav>
@@ -80,7 +80,19 @@
         {{ page.date | date: "%d-%m-%Y" }}
 
     </div>
+{% if page.tags %}
+    <div class="post-tags">
 
+        {% for tag in page.tags %}
+
+            <span class="post-tag">
+                {{ tag }}
+            </span>
+
+        {% endfor %}
+
+    </div>
+{% endif %}
 
     <article class="post-content">
 
