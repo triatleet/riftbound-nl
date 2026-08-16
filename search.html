@@ -107,19 +107,21 @@ permalink: /search/
 
 <script>
 
-<script>
-
 const posts = [
+
 {% for post in site.posts %}
-{
-    title: {{ post.title | jsonify }},
-    url: {{ post.url | relative_url | jsonify }},
-    excerpt: {{ post.excerpt | strip_html | jsonify }},
-    content: {{ post.content | strip_html | jsonify }},
-    categories: {{ post.categories | join: " " | jsonify }},
-    tags: {{ post.tags | join: " " | jsonify }}
-}{% unless forloop.last %},{% endunless %}
+
+    {
+        title: {{ post.title | jsonify }},
+        url: {{ post.url | relative_url | jsonify }},
+        excerpt: {{ post.excerpt | strip_html | jsonify }},
+        content: {{ post.content | strip_html | jsonify }},
+        categories: {{ post.categories | join: " " | jsonify }},
+        tags: {{ post.tags | join: " " | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+
 {% endfor %}
+
 ];
 
 
@@ -201,87 +203,6 @@ input.addEventListener("input", function () {
         `;
 
     }).join("");
-
-});
-
-</script>
-
-
-const input = document.getElementById("search-input");
-const results = document.getElementById("search-results");
-
-
-input.addEventListener("input", function() {
-
-    const query = input.value
-        .toLowerCase()
-        .trim();
-
-
-    if (!query) {
-
-        results.innerHTML = "";
-
-        return;
-
-    }
-
-
-    const matches = posts.filter(post => {
-
-        const searchableText = (
-
-            post.title + " " +
-            post.excerpt + " " +
-            post.content + " " +
-            post.categories + " " +
-            post.tags
-
-        ).toLowerCase();
-
-
-        return searchableText.includes(query);
-
-    });
-
-
-    if (matches.length === 0) {
-
-        results.innerHTML = `
-            <p class="search-empty">
-                Geen artikelen gevonden voor "${query}".
-            </p>
-        `;
-
-        return;
-
-    }
-
-
-    results.innerHTML = matches.map(post => `
-
-        <article class="article">
-
-            <a href="${post.url}">
-
-                <div class="category">
-                    ${post.categories}
-                </div>
-
-                <h3>
-                    ${post.title}
-                </h3>
-
-                <p>
-                    ${post.excerpt}
-                </p>
-
-            </a>
-
-        </article>
-
-    `).join("");
-
 
 });
 
