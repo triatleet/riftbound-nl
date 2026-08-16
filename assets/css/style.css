@@ -480,9 +480,8 @@ footer {
     display: block;
 
     width: 100%;
-    max-width: 650px;
-
-    height: 220px;
+    max-width: 600px;
+    height: 200px;
 
     margin: 30px auto 45px;
 
@@ -500,8 +499,11 @@ footer {
 @media (max-width: 800px) {
 
     .post-image {
-        max-width: 100%;
+        width: 100%;
+        max-width: none;
         height: 180px;
+
+        border-radius: 16px;
     }
 
 }
