@@ -1,0 +1,122 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Decks — Riftblog</title>
+
+    <link rel="stylesheet"
+          href="{{ '/assets/css/style.css' | relative_url }}">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="header-inner">
+
+        <div class="logo">
+            Rift<span>blog</span>
+        </div>
+
+        <nav>
+
+            <a href="{{ '/' | relative_url }}">
+                Home
+            </a>
+
+            <a href="{{ '/nieuws/' | relative_url }}">
+                Nieuws
+            </a>
+
+            <a href="{{ '/decks/' | relative_url }}">
+                Decks
+            </a>
+
+            <a href="{{ '/strategie/' | relative_url }}">
+                Strategie
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main class="articles">
+
+
+    <section class="hero">
+
+        <div class="hero-label">
+            Riftblog
+        </div>
+
+        <h1>
+            Decks
+        </h1>
+
+        <p>
+            Decklists, analyses en ideeën
+            voor je volgende Riftbound deck.
+        </p>
+
+    </section>
+
+
+    <div class="article-grid">
+
+
+        {% for post in site.categories.decks %}
+
+            <article class="article">
+
+                <a href="{{ post.url | relative_url }}">
+
+                    <div class="category">
+                        Decks
+                    </div>
+
+                    <h3>
+                        {{ post.title }}
+                    </h3>
+
+                    <p>
+                        {{ post.excerpt | strip_html | truncate: 150 }}
+                    </p>
+
+                </a>
+
+            </article>
+
+        {% endfor %}
+
+
+    </div>
+
+
+</main>
+
+
+<footer>
+
+    Riftblog · Nederlandse Riftbound blog en community
+
+</footer>
+
+
+</body>
+
+</html>
