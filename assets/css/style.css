@@ -1,3 +1,4 @@
+```css
 /* ========================================
    RIFTBLOG
    Main stylesheet
@@ -72,6 +73,7 @@ header {
 
 nav {
     display: flex;
+    align-items: center;
     gap: 28px;
 }
 
@@ -84,6 +86,10 @@ nav a {
     font-weight: 600;
 
     transition: color 0.2s ease;
+
+    display: flex;
+    align-items: center;
+    line-height: 1;
 }
 
 nav a:hover {
@@ -250,6 +256,8 @@ nav a:hover {
 
     margin-bottom: 55px;
 }
+
+
 /* ---------- Tags ---------- */
 
 .post-tags {
@@ -278,6 +286,7 @@ nav a:hover {
 
     background: #151e31;
 }
+
 .post-content {
     color: #cbd5e1;
 
@@ -345,11 +354,25 @@ footer {
     }
 
     nav {
+        display: flex;
+        align-items: center;
         gap: 5px;
     }
 
     nav a {
+        display: flex;
+        align-items: center;
+
         font-size: 11px;
+        line-height: 1;
+    }
+
+    .youtube-link img {
+        width: 17px;
+        height: 17px;
+
+        display: block;
+        object-fit: contain;
     }
 
     .hero {
@@ -369,6 +392,8 @@ footer {
     }
 
 }
+
+
 /* ---------- Featured article ---------- */
 
 .featured {
@@ -481,6 +506,8 @@ footer {
     }
 
 }
+
+
 /* ---------- Featured image ---------- */
 
 .featured-image {
@@ -505,6 +532,8 @@ footer {
     }
 
 }
+
+
 /* ---------- Afbeelding op artikelpagina ---------- */
 
 .post-image {
@@ -538,6 +567,8 @@ footer {
     }
 
 }
+
+
 /* ---------- Zoekfunctie ---------- */
 
 .search-box {
@@ -588,6 +619,8 @@ footer {
 
     padding: 40px 20px;
 }
+
+
 /* ---------- YouTube navigatie ---------- */
 
 .youtube-link {
@@ -596,8 +629,9 @@ footer {
 }
 
 .youtube-link img {
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
+
     object-fit: contain;
     display: block;
 }
@@ -605,3 +639,4 @@ footer {
 .youtube-link:hover img {
     opacity: 0.8;
 }
+```
