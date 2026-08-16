@@ -474,3 +474,33 @@ footer {
     }
 
 }
+/* ---------- Afbeelding op artikelpagina ---------- */
+
+.post-image {
+    display: block;
+
+    width: 100%;
+    max-width: 820px;
+
+    height: 360px;
+
+    margin: 30px auto 45px;
+
+    object-fit: cover;
+    object-position: center center;
+
+    border-radius: 16px;
+
+    border: 1px solid #34415f;
+}
+
+
+/* ---------- Artikelafbeelding mobiel ---------- */
+
+@media (max-width: 800px) {
+
+    .post-image {
+        height: 220px;
+    }
+
+}
