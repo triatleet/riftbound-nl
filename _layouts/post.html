@@ -62,7 +62,14 @@
         {{ page.categories }}
     </div>
 
-
+{% if page.image %}
+<img
+    class="post-image"
+    src="{{ page.image | relative_url }}"
+    alt="{{ page.title }}"
+>
+{% endif %}
+    
     <h1 class="post-title">
         {{ page.title }}
     </h1>
