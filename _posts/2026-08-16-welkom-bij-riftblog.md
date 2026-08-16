@@ -14,6 +14,8 @@ Welkom bij **Riftblog**!
 
 Dit wordt een Nederlandse blog over Riftbound.
 
-Hier wil ik schrijven over nieuws, decks, strategie, nieuwe sets en alles wat er rondom de Nederlandse Riftbound-community gebeurt.
+Na het maken van Nederlandstalige YouTube-video’s kreeg ik het idee om een website te maken die volledig draait om de Nederlandse Riftbound-scene. Hierbij wil ik YouTube-video’s ter ondersteuning gebruiken.
 
-Dit is mijn eerste artikel. 🚀
+Ik wil schrijven over nieuws, decks, strategie, nieuwe sets en alles wat er rondom de Nederlandse Riftbound-community gebeurt.
+
+Dit is mijn eerste artikel. Welkom bij Riftblog!
