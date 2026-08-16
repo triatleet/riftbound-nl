@@ -94,7 +94,13 @@
 
         <a href="{{ featured.url | relative_url }}">
 
-            <div class="featured-content">
+    <img
+        class="featured-image"
+        src="{{ '/assets/images/posts/RoppakkiBanner.jpg' | relative_url }}"
+        alt="{{ featured.title }}"
+    >
+
+    <div class="featured-content">
 
                 <div class="featured-category">
                     {{ featured.categories | first }}
