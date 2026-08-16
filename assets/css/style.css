@@ -336,17 +336,21 @@ footer {
 
 @media (max-width: 800px) {
 
-    .header-inner {
-        padding: 16px 20px;
-    }
+.header-inner {
+    padding: 14px 16px;
+}
 
-    nav {
-        gap: 12px;
-    }
+.logo {
+    font-size: 24px;
+}
 
-    nav a {
-        font-size: 13px;
-    }
+nav {
+    gap: 9px;
+}
+
+nav a {
+    font-size: 12px;
+}
 
     .hero {
         padding-top: 60px;
