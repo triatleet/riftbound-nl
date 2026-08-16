@@ -3,6 +3,10 @@ layout: post
 title: "Mijn eerste Riftbound deck"
 date: 2026-08-16
 categories: decks
+tags:
+  - deckbuilding
+  - eerste-deck
+  - strategie
 ---
 
 Vandaag bespreek ik mijn eerste Riftbound deck.
