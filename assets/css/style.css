@@ -588,3 +588,20 @@ footer {
 
     padding: 40px 20px;
 }
+/* ---------- YouTube navigatie ---------- */
+
+.youtube-link {
+    display: flex;
+    align-items: center;
+}
+
+.youtube-link img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    display: block;
+}
+
+.youtube-link:hover img {
+    opacity: 0.8;
+}
