@@ -90,67 +90,31 @@
 
         <div class="article-grid">
 
+    {% for post in site.posts limit:6 %}
 
-            <article class="article">
+        <article class="article">
 
-                <a href="{{ '/2026/08/16/welkom-bij-riftblog/' | relative_url }}">
-
-                    <div class="category">
-                        Nieuws
-                    </div>
-
-                    <h3>
-                        Welkom bij Riftblog
-                    </h3>
-
-                    <p>
-                        Dit is het eerste artikel van
-                        Riftblog. Welkom bij de Nederlandse
-                        Riftbound community!
-                    </p>
-
-                </a>
-
-            </article>
-
-
-            <article class="article">
+            <a href="{{ post.url | relative_url }}">
 
                 <div class="category">
-                    Decks
+                    {{ post.categories | first }}
                 </div>
 
                 <h3>
-                    Mijn eerste Riftbound deck
+                    {{ post.title }}
                 </h3>
 
                 <p>
-                    Binnenkort lees je hier alles over
-                    decks, kaarten en strategie.
+                    {{ post.excerpt | strip_html | truncate: 150 }}
                 </p>
 
-            </article>
+            </a>
 
+        </article>
 
-            <article class="article">
+    {% endfor %}
 
-                <div class="category">
-                    Strategie
-                </div>
-
-                <h3>
-                    Riftbound voor beginners
-                </h3>
-
-                <p>
-                    Een plek voor spelers die Riftbound
-                    net ontdekken.
-                </p>
-
-            </article>
-
-
-        </div>
+</div>
 
     </section>
 
