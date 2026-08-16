@@ -94,11 +94,13 @@
 
         <a href="{{ featured.url | relative_url }}">
 
-    <img
-        class="featured-image"
-        src="{{ '/assets/images/posts/RoppakkiBanner.jpg' | relative_url }}"
-        alt="{{ featured.title }}"
-    >
+    {% if featured.image %}
+<img
+    class="featured-image"
+    src="{{ featured.image | relative_url }}"
+    alt="{{ featured.title }}"
+>
+{% endif %}
 
     <div class="featured-content">
 
