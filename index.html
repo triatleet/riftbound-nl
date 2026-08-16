@@ -7,33 +7,236 @@
     <title>Riftbound NL</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 40px 20px;
             background: #111827;
+            color: #f9fafb;
+        }
+
+        header {
+            background: #1f2937;
+            border-bottom: 1px solid #374151;
+            padding: 20px;
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #d1d5db;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
             color: white;
         }
 
-        h1 {
-            font-size: 48px;
+        .hero {
+            max-width: 1100px;
+            margin: 70px auto;
+            padding: 0 20px;
         }
 
-        p {
-            font-size: 20px;
+        .hero h1 {
+            font-size: 56px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 21px;
+            color: #9ca3af;
+            max-width: 650px;
             line-height: 1.6;
+        }
+
+        .articles {
+            max-width: 1100px;
+            margin: 0 auto 80px;
+            padding: 0 20px;
+        }
+
+        .articles h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .article {
+            background: #1f2937;
+            border: 1px solid #374151;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .article h3 {
+            margin-top: 0;
+            font-size: 22px;
+        }
+
+        .article p {
+            color: #9ca3af;
+            line-height: 1.5;
+        }
+
+        .category {
+            color: #a78bfa;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        footer {
+            border-top: 1px solid #374151;
+            padding: 30px 20px;
+            text-align: center;
+            color: #6b7280;
+        }
+
+        @media (max-width: 800px) {
+            .article-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header-inner {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Riftbound NL</h1>
+<header>
+    <div class="header-inner">
 
-    <p>De Nederlandse Riftbound community.</p>
+        <div class="logo">
+            Riftbound NL
+        </div>
 
-    <p>Welkom op mijn nieuwe blog!</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Nieuws</a>
+            <a href="#">Decks</a>
+            <a href="#">Strategie</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <section class="hero">
+
+        <h1>Riftbound in het Nederlands.</h1>
+
+        <p>
+            Nieuws, decks, strategieën en alles rondom
+            Riftbound voor de Nederlandse community.
+        </p>
+
+    </section>
+
+
+    <section class="articles">
+
+        <h2>Laatste artikelen</h2>
+
+        <div class="article-grid">
+
+            <article class="article">
+
+                <div class="category">
+                    Nieuws
+                </div>
+
+                <h3>
+                    Welkom bij Riftbound NL
+                </h3>
+
+                <p>
+                    Mijn eerste artikel over deze nieuwe
+                    Riftbound-community.
+                </p>
+
+            </article>
+
+
+            <article class="article">
+
+                <div class="category">
+                    Decks
+                </div>
+
+                <h3>
+                    Mijn eerste Riftbound deck
+                </h3>
+
+                <p>
+                    Een kijkje naar mijn eerste deck en
+                    waarom ik voor deze kaarten heb gekozen.
+                </p>
+
+            </article>
+
+
+            <article class="article">
+
+                <div class="category">
+                    Strategie
+                </div>
+
+                <h3>
+                    Riftbound voor beginners
+                </h3>
+
+                <p>
+                    Een eenvoudige introductie voor spelers
+                    die net beginnen met Riftbound.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    Riftbound NL · Nederlandse Riftbound community
+</footer>
 
 </body>
 </html>
