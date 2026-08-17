@@ -639,4 +639,49 @@ footer {
 .youtube-link:hover img {
     opacity: 0.8;
 }
-```
+
+/* ---------- RiftDecks link ---------- */
+
+.deck-link-box {
+    margin: 50px 0;
+    padding: 25px 28px;
+
+    background: #151e31;
+
+    border: 1px solid #34415f;
+    border-left: 4px solid #a78bfa;
+
+    border-radius: 12px;
+}
+
+.deck-link-box strong {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: #ffffff;
+
+    font-size: 18px;
+}
+
+.deck-link-box p {
+    margin: 0;
+
+    color: #aab6c9;
+
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.deck-link-box a {
+    color: #a78bfa;
+
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.deck-link-box a:hover {
+    color: #ffffff;
+}
+
