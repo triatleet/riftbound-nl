@@ -33,6 +33,8 @@ Dat betekent overigens niet dat Sivir ineens geen goede keuze meer is. *Dazzling
 
 ## De underdog: Vi
 
+![Vi, Piltover Enforcer](/assets/images/posts/vi.jpg)
+
 Als je op zoek bent naar een echte underdog, dan is **Vi, Piltover Enforcer** misschien wel de interessantste naam.
 
 Slechts **8 van de 626 spelers** kozen voor Vi. De beste Vi-speler wist vervolgens een indrukwekkende **22e plaats** te behalen.
@@ -44,6 +46,8 @@ Het doel is duidelijk: zoveel mogelijk excess damage creëren en daarmee optimaa
 Acht spelers is natuurlijk een kleine steekproef, maar een 22e plaats in een veld van 626 spelers laat wel zien dat Vi absoluut niet afgeschreven kan worden.
 
 ## Kennen is overal
+
+![Kennen, Heart of the Tempest](/assets/images/posts/kennen.jpg)
 
 Wanneer we vervolgens naar de bovenkant van het toernooi kijken, ontstaat een heel ander beeld.
 
@@ -80,6 +84,8 @@ Daarmee is het contrast eigenlijk perfect zichtbaar: Kennen was enorm aanwezig a
 
 ## Rocklho pakt de winst met Azir
 
+![Azir, Emperor of the Sands](/assets/images/posts/azir.jpg)
+
 De winnaar van de Showdown Series in Speyer is **Rocklho**, een naam die bij veel Azir-spelers waarschijnlijk bekend zal zijn.
 
 Rocklho heeft eerder meerdere Best-of-resultaten behaald bij Regional Qualifiers en behoort tot de bekende Azir-specialisten, samen met spelers als **MICE Squirtle** en **Yellowcastor**.
@@ -110,8 +116,21 @@ Maar Speyer laat vooral zien dat **Vendetta nog genoeg ruimte laat voor verschil
 
 En misschien is dat uiteindelijk wel het leukste nieuws.
 
-> **Wil je zelf de meta van Speyer bekijken?**
-> Bekijk de volledige decklists en resultaten van het toernooi op **[RiftDecks](https://riftdecks.com/riftbound-tournaments/riftbound-showdown-series-germany-speyer-tournament-decks-13992/)** en ontdek welke Legends en decks in Speyer het beste presteerden.
+<div class="deck-link-box">
+
+    <strong>Wil je zelf de meta van Speyer bekijken?</strong>
+
+    <p>
+        Bekijk de volledige decklists en resultaten van het toernooi
+        op <a href="https://riftdecks.com/riftbound-tournaments/riftbound-showdown-series-germany-speyer-tournament-decks-13992/"
+        target="_blank"
+        rel="noopener">
+        RiftDecks
+        </a>
+        en ontdek welke Legends en decks in Speyer het beste presteerden.
+    </p>
+
+</div>
 
 Barcelona wordt de volgende grote test.
 
