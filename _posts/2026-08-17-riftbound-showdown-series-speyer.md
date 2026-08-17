@@ -6,15 +6,6 @@ categories: competitie
 tags: [Vendetta, meta, Showdown Series, Speyer, Kennen, Azir, deckbuilding]
 image: /assets/images/posts/speyer-showdown.jpg
 ---
----
-
-layout: post
-title: "Riftbound Showdown Series in Speyer: een eerste blik op de Vendetta-meta"
-date: 2026-08-16
-categories: deckbuilding
-tags: [Vendetta, meta, Showdown Series, Speyer, Kennen, Azir, deckbuilding]
-image: /assets/images/posts/speyer-showdown.jpg
------------------------------------------------
 
 De eerste grote Europese test voor de nieuwe **Vendetta-meta** zit erop. Op 15 augustus 2026 kwamen maar liefst **626 spelers** bijeen in Speyer, Duitsland, voor de Riftbound Showdown Series.
 
