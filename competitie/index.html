@@ -1,3 +1,4 @@
+```html
 ---
 ---
 
@@ -11,7 +12,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>Competitie & Strategie — Riftblog</title>
+    <title>Competitie — Riftblog</title>
 
     <link rel="stylesheet"
           href="{{ '/assets/css/style.css' | relative_url }}">
@@ -30,37 +31,40 @@
             Rift<span>blog</span>
         </div>
 
-       <nav>
+        <nav>
 
-    <a href="{{ '/' | relative_url }}">
-        Home
-    </a>
+            <a href="{{ '/' | relative_url }}">
+                Home
+            </a>
 
-    <a href="{{ '/nieuws/' | relative_url }}">
-        Nieuws
-    </a>
+            <a href="{{ '/nieuws/' | relative_url }}">
+                Nieuws
+            </a>
 
-    <a href="{{ '/deckbuilding/' | relative_url }}">
-        Deckbuilding
-    </a>
+            <a href="{{ '/deckbuilding/' | relative_url }}">
+                Deckbuilding
+            </a>
 
-    <a href="{{ '/competitie/' | relative_url }}">
-        Competitie
-    </a>
+            <a href="{{ '/competitie/' | relative_url }}">
+                Competitie
+            </a>
 
-    <a href="{{ '/search/' | relative_url }}">
-        🔍
-    </a>
-           <a href="https://www.youtube.com/@riftblog"
-   target="_blank"
-   rel="noopener"
-   aria-label="Riftblog op YouTube"
-   class="youtube-link">
-    <img src="{{ '/assets/images/posts/YouTubeIcon.png' | relative_url }}"
-         alt="YouTube">
-</a>
+            <a href="{{ '/search/' | relative_url }}">
+                🔍
+            </a>
 
-</nav>
+            <a href="https://www.youtube.com/@riftblog"
+               target="_blank"
+               rel="noopener"
+               aria-label="Riftblog op YouTube"
+               class="youtube-link">
+
+                <img src="{{ '/assets/images/posts/YouTubeIcon.png' | relative_url }}"
+                     alt="YouTube">
+
+            </a>
+
+        </nav>
 
     </div>
 
@@ -77,12 +81,12 @@
         </div>
 
         <h1>
-            Competitie & Strategie
+            Competitie
         </h1>
 
         <p>
-    Toernooien, meta, matchup-analyses, tournament reports en competitieve strategie.
-</p>
+            Toernooien, meta, matchup-analyses, tournament reports en competitieve strategie.
+        </p>
 
     </section>
 
@@ -90,7 +94,7 @@
     <div class="article-grid">
 
 
-        {% for post in site.categories.strategie %}
+        {% for post in site.categories.competitie %}
 
             <article class="article">
 
@@ -131,3 +135,4 @@
 </body>
 
 </html>
+```
