@@ -32,35 +32,38 @@
 
         <nav>
 
-    <a href="{{ '/' | relative_url }}">
-        Home
-    </a>
+            <a href="{{ '/' | relative_url }}">
+                Home
+            </a>
 
-    <a href="{{ '/nieuws/' | relative_url }}">
-        Nieuws
-    </a>
+            <a href="{{ '/nieuws/' | relative_url }}">
+                Nieuws
+            </a>
 
-    <a href="{{ '/deckbuilding/' | relative_url }}">
-        Deckbuilding
-    </a>
+            <a href="{{ '/deckbuilding/' | relative_url }}">
+                Deckbuilding
+            </a>
 
-    <a href="{{ '/competitie/' | relative_url }}">
-        Competitie
-    </a>
+            <a href="{{ '/competitie/' | relative_url }}">
+                Competitie
+            </a>
 
-    <a href="{{ '/search/' | relative_url }}">
-        🔍
-    </a>
+            <a href="{{ '/search/' | relative_url }}">
+                🔍
+            </a>
+
             <a href="https://www.youtube.com/@riftblog"
-   target="_blank"
-   rel="noopener"
-   aria-label="Riftblog op YouTube"
-   class="youtube-link">
-    <img src="{{ '/assets/images/posts/YouTubeIcon.png' | relative_url }}"
-         alt="YouTube">
-</a>
+               target="_blank"
+               rel="noopener"
+               aria-label="Riftblog op YouTube"
+               class="youtube-link">
 
-</nav>
+                <img src="{{ '/assets/images/posts/YouTubeIcon.png' | relative_url }}"
+                     alt="YouTube">
+
+            </a>
+
+        </nav>
 
     </div>
 
@@ -81,8 +84,8 @@
         </h1>
 
         <p>
-    Decklists, deckbuilding, kaartanalyses en praktische guides voor Riftbound.
-</p>
+            Decklists, deckbuilding, kaartanalyses en praktische guides voor Riftbound.
+        </p>
 
     </section>
 
@@ -90,7 +93,7 @@
     <div class="article-grid">
 
 
-        {% for post in site.categories.decks %}
+        {% for post in site.categories.deckbuilding %}
 
             <article class="article">
 
@@ -131,3 +134,4 @@
 </body>
 
 </html>
+```
