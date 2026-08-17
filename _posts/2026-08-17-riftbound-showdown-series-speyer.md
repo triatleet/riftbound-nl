@@ -2,7 +2,7 @@
 layout: post
 title: "Riftbound Showdown Series in Speyer: een eerste blik op de Vendetta-meta"
 date: 2026-08-17
-categories: competitie
+categories: strategie
 tags: [Vendetta, meta, Showdown Series, Speyer, Kennen, Azir, deckbuilding]
 image: /assets/images/posts/speyer-showdown.jpg
 ---
