@@ -23,7 +23,7 @@ En met **626 deelnemers** is Speyer bovendien een flinke steekproef.
 
 Wie naar het volledige deelnemersveld kijkt, ziet iets opvallends: **vrijwel iedere Legend was vertegenwoordigd**. De meta was daarmee een stuk diverser dan je op basis van de eerste Vendetta-previews misschien zou verwachten.
 
-Eén naam viel daarbij meteen op door zijn afwezigheid.
+Eén naam viel daarbij meteen op door haar afwezigheid.
 
 Er werd namelijk slechts **één Lux, Lady of Luminosity** gespeeld. Dat is opvallend, zeker omdat Lux eerder een populaire keuze was. Een mogelijke verklaring is de veranderde prize support en het feit dat de bijbehorende metal cards inmiddels discontinued zijn.
 
